@@ -1,0 +1,12 @@
+SAMPLE INPUT:
+Enter a noun: friends
+Enter a verb: chill with
+Enter an adjective: best
+Enter an adverb: for long
+
+SAMPLE OUTPUT:
+do you chill with your best friends for long? That's hilarious! 
+
+STEPS TO WRITE THE CODE:
+1. get noun, verb, adjective, adverb from the user and store it with appropriate names
+2. arrange those in the print statement using f in print and disply the output
