@@ -1,0 +1,18 @@
+SAMPLE INPUT:
+What is the length of the room in feet? 20
+What is the width of the room in feet? 18
+You entered dimensions of 20 feet by 18 feet.
+Choose between Feet or Meters to display the output: meters
+
+SAMPLE OUTPUT:
+33.4450944 square meters
+
+STEPS TO WRITE THE CODE:
+1. Initialize unit as an empty string to store the user's selected unit.  
+2. Define the choose_unit() function to prompt the user to choose between feet or meters. If the input matches valid meter options, set unit = "Square meters". If it matches valid feet options, set unit = "Square feet".  
+3. Define the isinteger(a) function to check if the input contains only digits using .isdigit(). If true, return True. If false, print "Only integers accepted" and return False.  
+4. Prompt the user to enter the length and width in feet. Display the entered dimensions.  
+5. Convert room_length and room_width to integers using int() for calculations.  
+6. Calculate area in square feet using area_in_feet = width * length. Convert to square meters using area_in_metre_sq = area_in_feet * 0.09290304.  
+7. Validate that both room_length and room_width are integers using isinteger(). If valid, proceed with unit selection and area calculation.  
+8. Display the final area based on the selected unit using:
