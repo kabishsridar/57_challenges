@@ -1,0 +1,30 @@
+SAMPLE INPUT:
+Enter first number: 10
+Enter second number: 5
+
+SAMPLE OUTPUT:
+10 + 5 = 15
+10 - 5 = 5
+10 * 5 = 50
+10 / 5 = 2.0
+
+SAMPLE INPUT 2:
+Enter first number: h
+Enter second number: s
+
+SAMPLE OUTPUT2:
+Only integers allowed.
+
+SAMPLE INPUT 3:
+Enter first number: -5
+Enter second number: 15
+
+SAMPLE OUTPUT 3:
+Only integers allowed.
+
+STEPS TO WRITE THE CODE:
+1. define a function isinteger_positive to check if both inputs are positive integers and not other than numbers
+2. use isdigit() function to verify it is digit
+3. define a function operations to perform arithmetic operations(addition, subtraction, multiplication, and division)
+4. check for DivisionByZeroError
+5. 
