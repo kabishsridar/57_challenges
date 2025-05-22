@@ -1,0 +1,14 @@
+SAMPLE INPUT:
+Enter first number: 10
+Enter second number: 5
+
+SAMPLE OUTPUT:
+10 + 5 = 15
+10 - 5 = 5
+10 * 5 = 50
+10 / 5 = 2.0
+
+STEPS TO WRITE THE CODE:
+1. prompt the user for first number and store it as first_number
+2. prompt the user for second number and store it as second_number
+3. use direct math functions inside the print function to add, subtract, multiply and divide
