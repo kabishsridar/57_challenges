@@ -1,0 +1,20 @@
+SAMPLE INPUT:
+How many people? 8
+How many pizzas do you have? 2
+Enter number of slices per pizza: 8
+
+SAMPLE OUTPUT:
+Each person gets 2 pieces of pizza.
+There are 0 leftover pieces.
+
+STEPS TO WRITE THE CODE:
+1. Prompt the user to enter the number of people and store the input as an integer for calculations
+2. Prompt the user to enter the number of pizzas they have and store the input as an integer
+3. Ask the user to enter the number of slices in each pizza and convert the input into an integer
+4. Multiply the number of pizzas by the number of slices per pizza to calculate the total number of slices available
+5. Use integer division to determine how many slices each person receives by dividing the total number of slices by the number of people and store this value for later use
+6. Use the modulus operation to determine how many slices are left over by finding the remainder when dividing the total slices by the number of people and store this value for later use
+7. Print a message showing how many people are sharing the number of pizzas
+8. Print a message showing how many slices each person receives
+9. Print a message showing how many slices remain as leftovers
+10. Make sure each message clearly conveys the information in a way that is easy to understand for the user.
