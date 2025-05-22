@@ -1,0 +1,15 @@
+SAMPLE INPUT:
+What is the length of the room in feet? 10
+What is the width of the room in feet? 50
+
+SAMPLE OUTPUT:
+The area is
+500 square feets
+46.45152 square meters
+
+STEPS TO WRITE THE CODE:
+1. prompt the user for length and width of the room and store them in feets
+2. display the dimensions of the room
+3. calculate the area in feet
+4. use the area calculated in feet and multiply with 0.09290304 to make it as square meters from square feet
+5. display the area of the rectangular room both in square feets and square meters
