@@ -1,0 +1,10 @@
+SAMPLE INPUT:
+What is the input string? kabish
+
+SAMPLE OUTPUT:
+kabish has 6 character
+
+STEPS TO WRITE THE CODE:
+1. get the string from the user to be counted and store it as data
+2. as it is stored in form of string, we can use the function len(string) to count the characters in the string and store it as count
+3. using f in print function we can displaly the output 
