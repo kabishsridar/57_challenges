@@ -1,0 +1,13 @@
+SAMPLE INPUT:
+What is the input string? KABISH
+What is the input string? 
+
+SAMPLE OUTPUT:
+KABISH has 6 character
+The user must enter something to the programme
+
+STEPS TO WRITE THE CODE:
+1. get the input string from the user and store it as data
+2. store the length of data as count
+3. check if the data is empty, then print The user must enter something to the programme
+4. else  it should display the output of number of characters
