@@ -1,0 +1,8 @@
+SAMPLE OUTPUT:
+George Eliot says, "It is never too late to be what you might have been."
+Obi-Wan Kenobi says, "These aren't the droids you're looking for."
+Haruki Murakami says, "Pain is inevitable. Suffering is optional."
+
+STEPS TO WRITE THE CODE:
+1. use a nested list and store the quotes and author names as lst 
+2. use for loop to iterate for each list and use indexes as i[0] represents author and i[1] represents the quotes
