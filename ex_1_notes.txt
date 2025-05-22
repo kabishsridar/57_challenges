@@ -1,0 +1,9 @@
+SAMPLE INPUT:
+What is your name? kabish
+
+SAMPLE OUTPUT:
+Hello, kabish, nice to meet you !
+
+STEPS TO WRITE THE CODE:
+1. get an input from user for their name and tore it as name
+2. use print statement with f to add the stored variable (name) and display the name and greetings
