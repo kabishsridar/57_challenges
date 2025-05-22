@@ -1,1 +1,0 @@
-print("Hello,", input("what is your name? "),", nice to meet you !")
