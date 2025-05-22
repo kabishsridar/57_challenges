@@ -26,5 +26,6 @@ STEPS TO WRITE THE CODE:
 1. define a function isinteger_positive to check if both inputs are positive integers and not other than numbers
 2. use isdigit() function to verify it is digit
 3. define a function operations to perform arithmetic operations(addition, subtraction, multiplication, and division)
-4. check for DivisionByZeroError
-5. 
+4. prompt user for integers and store it as num1 and num2 in string format to check isdigit function
+5. check for DivisionByZeroError
+6. if it is not an integer then it should display Only integers allowed
