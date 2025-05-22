@@ -1,0 +1,18 @@
+SAMPLE INPUT:
+How many people? 8
+Enter number of pieces each person wants: 3
+Enter number of slices per pizza: 8
+
+SAMPLE OUTPUT:
+8 people want 3 slice(s) each.
+You need to buy 3 pizza(s).
+
+STEPS TO WRITE THE CODE:
+1. import math module to perform ceil function
+2. prompt the user for number of people, slices_per_person, slices_per_pizza and store it
+3. define a function isinteger to check whether it is a digit using .isdigit() function
+4. if the inputs are a valid digits, then convert them to integer
+5. total_slices_needed = people * slices_per_person will be the slices needed for all people
+6. Use the math.ceil() function to round up the number of pizzas needed, ensuring everyone gets their desired slices.  
+7. displays how many slices we need
+8. displays how many pizzas we need
