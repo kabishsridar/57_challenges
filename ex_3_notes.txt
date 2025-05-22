@@ -1,0 +1,11 @@
+SAMPLE INPUT:
+What is the Quote? It is never too late to be what you might have been.
+Who said it? George Eliot
+
+SAMPLE OUTPUT:
+George Eliot says, "It is never too late to be what you might have been."
+
+STEPS TO WRITE THE CODE:
+1. get the quote from the user
+2. get the name of the author wo said the quote
+3. use escape sequence \" to add double quotes inside the print statement and print it
