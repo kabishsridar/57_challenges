@@ -1,0 +1,10 @@
+SAMPLE INPUT:
+what is your name? kabish
+
+SAMPLE OUTPUT:
+Hello, kabish , nice to meet you !
+
+STEPS TO WRITE THE CODE:
+1. we can use input statement inside the print function 
+2. the input statement will first be displayed to get input from user
+3. then, in the place where we used input, the value of input from the user will be displayed there
