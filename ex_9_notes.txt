@@ -1,0 +1,15 @@
+SAMPLE INPUT:
+Enter the length of ceiling(sq feet): 24
+Enter the width of ceiling(sq feet): 15
+
+SAMPLE OUTPUT:
+You will need to purchase 2 gallons of paint 
+to cover 360 square feet.
+
+STEPS TO WRITE THE CODE:
+1. prompt the user for length and width of the ceiling
+2. calculate and store the area of the ceiling
+3. initiate gallon as 350 because one gallon covers 350 sq feet
+4. gallon required will be the area / gallon. we need only the whole number so we used area // gallon
+5. we need complete gallon extra if we need gallon for more than 350 sq feet. so add 1
+6. display the output
