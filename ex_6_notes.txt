@@ -1,0 +1,15 @@
+SAMPLE INPUT:
+What is your current age? 17
+At what age would you like to retire? 60
+
+SAMPLE OUTPUT:
+You have 43 years left until you can retire.
+It's 2025, so you can retire in 2068  
+
+STEPS TO WRITE THE CODE:
+1. we can import datetime module to get the current year or we can just assign current_year = 2025 as both will work properly
+2. get the year from the module and store as current_year
+3. prompt the user for current age and store it as current_age
+4. prompt the user for retirement age and store it as retirement_age
+5. display the number of years left for retirement by subtracting retirement_age - current_age
+6. display in which year the user will be retired by adding current year and the number of years left for retirement
