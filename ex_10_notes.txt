@@ -1,0 +1,20 @@
+SAMPLE INPUT:
+Enter the price of item 1: 9
+Enter the quantity of item 1: 1
+Enter the price of item 2: 8
+Enter the quantity of item 2: 1
+Enter the price of item 3: 5
+Enter the quantity of item 3: 1
+
+SAMPLE OUTPUT:
+SubTotal: $22.0
+Tax: $1.21
+Total: $23.21
+
+STEPS TO WRITE THE CODE:
+1. use for loop to iterate for 3 items to prompt user for price and quantity
+2. initiate subtotal as 0 as we need to track the subtotal here
+3. item_total will be the complete price of item
+4. subtotal will be the total for all items
+5. tax is 5.5%, so 0.055 is multiplied to get the tax amount of the items
+6. add the tax amount to grand total and display the total
