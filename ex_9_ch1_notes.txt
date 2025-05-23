@@ -1,0 +1,24 @@
+SAMPLE INPUT:
+Enter the room(L-shaped, round, rectangle): round
+Enter the radius of ceiling(sq feet): 35
+
+SAMPLE OUTPUT:
+You will need to purchase 11.0 gallons of paint 
+to cover 3846.5 square feet.
+
+STEPS TO WRITE THE CODE:
+1. Define isinteger function – This function checks whether the input is a digit and ensures only numbers are accepted.  
+
+2. Define choose_room function – Allows the user to select the room type (circle, rectangle, or L-shaped) and calls the appropriate function based on their input.  
+
+3. Define circle function – Calculates the area of a circular ceiling using the formula pi × radius**2, then divides the result by 350 and rounds up to determine the gallons needed.  
+
+4. Define rectangle function – Calculates the area by multiplying length × width, then determines the number of gallons required using rounding logic.  
+
+5. Define Lshaped function – Splits an L-shaped room into two rectangles, calculates each area separately, sums them, and determines the total gallons needed.  
+
+6. Ensure proper input validation – Convert inputs to integer before calculations to handle decimals correctly.    
+
+7. Display the result – Print the total area covered and the number of gallons required for the selected room type.  
+
+8. Run the program – Call choose_room() to start the process and allow user interaction.  
