@@ -1,0 +1,20 @@
+SAMPLE INPUT:
+Enter the principal amount: 1500
+Enter the rate of interest (as a percentage): 4.3
+Enter the number of years: 4
+
+SAMPLE OUTPUT:
+Yearly breakdown of the investment:
+After 1 years at 4.3%, the investment will be worth $1564.55                                                         0
+After 2 years at 4.3%, the investment will be worth $1629.50                                                         0
+After 3 years at 4.3%, the investment will be worth $1693.5                                                         0
+After 4 years at 4.3%, the investment will be worth $1758.0
+Final Amount:
+After 4 years at 4.3%, the investment will be worth $1758.0
+
+STEPS TO WRITE THE CODE:
+1. prompt the user for principal amount, return on interest, number of years and store them
+2. check whether the input is a number 
+3. if it is a number, then execute or else print Enter a valid number. Only numbers are accepted.
+4. loop through years and print the investment for each years
+5. print final amount on last and display the final output
