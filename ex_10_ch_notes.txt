@@ -1,0 +1,28 @@
+SAMPLE INPUT:
+Enter number of items: 4
+Enter the price of item 1: 32 
+Enter the quantity of item 1: 1
+Enter the price of item 2: 25
+Enter the quantity of item 2: 2
+Enter the price of item 3: 5
+Enter the quantity of item 3: 1
+Enter the price of item 4: 25
+Enter the quantity of item 4: 1
+
+SAMPLE OUTPUT:
+SubTotal: $112
+Tax: $6.16
+Total: $118.16
+
+STEPS TO WRITE THE CODE:
+1. define a function isinteger to check whether it is a digit
+2. prompt the user for number of items to be entered and store as n
+3. initiate subtotal as 0 as we need to track the subtotal here
+4. use for loop to iterate for n items to prompt user for price and quantity
+5. if it is a digit, it should calculate the item_total, subtotal after converting them to integer
+6. it should calculate the tax and total only after getting the last input so if loop == n- 1 is used
+7. item_total will be the complete price of item
+8. subtotal will be the total for all items
+9. tax is 5.5%, so 0.055 is multiplied to get the tax amount of the items
+10. add the tax amount to grand total and display the total
+11. display the output
