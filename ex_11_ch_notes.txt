@@ -1,0 +1,28 @@
+SAMPLE INPUT:
+Available currencies:
+ - USD
+ - GBP
+ - INR
+ - JPY
+ - CAD
+ - AUD
+ - CHF
+ - CNY
+ - SEK
+ - NZD
+Enter the target currency code (e.g., USD, GBP): usd
+How many euros are you exchanging? 81
+
+SAMPLE OUTPUT:
+81 euros at an exchange rate of 1.1 is 89.1 USD.
+
+STEPS TO WRITE THE CODE:
+1. import math module to use ceil function for rounding off
+2. take conversion_rates for more countries and store it in a dictionary
+3. display the currency codes to select the country using for loop
+4. prompt the user for currency code
+5. check whether the input is available in the dictionary. or else print sorry, that currency is not supported
+6. if the currency code is available, then prompt for amount of euros to exchange
+7. calculate the rate by conversion_rates[currency]
+8. round off it using ceil
+9. display the output
