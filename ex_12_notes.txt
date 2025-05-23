@@ -1,0 +1,14 @@
+SAMPLE INPUT:
+Enter the principal amount: 1500
+Enter the rate of interest (as a percentage): 4.3
+Enter the number of years: 4
+
+SAMPLE OUTPUT:
+After 4 years at 4.3 %, the investment will
+be worth $ 1758.0
+
+STEPS TO WRITE THE CODE:
+1. Prompt the user for principal amount, return of interest and convert to decimal by dividing by 100, number of years
+2. assign the investment amount as per the formula given in question
+3. round off the amount
+4. display the final OUTPUT
