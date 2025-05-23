@@ -1,0 +1,14 @@
+SAMPLE INPUT:
+How many euros are you exchanging? 81
+What is the exchange rate? 137.5
+
+SAMPLE OUTPUT:
+81.0 euros at an exchange rate of 137.5 is
+111.38 U.S. dollars.
+
+STEPS TO WRITE THE CODE:
+1. prompt for amount of money in euros and current exchange rate of euro
+2. convert euro to USD with usd = (euro_amount * exchange_rate)
+3. round up to the next penny
+4. print us dollars
+USD = euro * euro rate / us rate
