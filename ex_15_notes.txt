@@ -1,0 +1,20 @@
+SAMPLE INPUT1:
+Enter the username: kabish
+What is your password?  abc$123
+
+SAMPLE OUTPUT1:
+Welcome!
+
+SAMPLE INPUT:
+Enter the username: kabish
+What is your password?  123abc
+
+SAMPLE OUTPUT:
+I dont know you
+
+STEPS TO WRITE THE CODE:
+1. prompt user for username and password
+2. initiate password as abc$123
+3. check if the input matches to the password 
+4. if password is correct, print welcome!
+5. if password is incorrect, print I dont know you
