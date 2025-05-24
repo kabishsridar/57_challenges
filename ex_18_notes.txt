@@ -1,0 +1,15 @@
+SAMPLE INPUT:
+Enter C to convert from Farenheit to Celsius.
+Enter F to convert form Celsius to Farenheit.
+Your choice: f
+ Please enter the temperature in Celsius: 0
+ 
+SAMPLE OUTPUT:
+The temperature in Farenheir: 32.0
+
+STEPS TO WRITE THE CODE:
+1. prompt for the choice of user whether to convert from farenheit to celsius or from celsius to farenheit
+2. if choice is c, ask for farenheit and store as F
+3. calulate celsius and print the calculated celcius
+4. if choice is f, ask for celsius and store as C
+5. calculate farenheit and print the calculated farenhrit
