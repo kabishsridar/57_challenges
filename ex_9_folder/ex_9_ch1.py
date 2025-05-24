@@ -4,9 +4,8 @@ def isinteger(a):
     else:
         print("Only numbers accepted")
         return False
-    
+
 def circle():
-    r = (input("Enter the radius of ceiling(sq feet): ")) # prompt for radius
     
     if isinteger(r):
         r = int(r)
@@ -17,8 +16,6 @@ def circle():
         print(f"You will need to purchase {num_gallon} gallons of paint \nto cover {area} square feet. ")
 
 def rectangle():
-    h = (input("Enter the height of ceiling(sq feet): ")) # prompt for width
-    l = (input("Enter the radius of ceiling(sq feet): ")) # prompt for length
     
     if isinteger(h) and isinteger(l):
         h = int(h)
@@ -30,10 +27,6 @@ def rectangle():
         print(f"You will need to purchase {num_gallon} gallons of paint \nto cover {area} square feet. ")
 def Lshaped():
     print("For L-shaped room, kindly seperate those as two rectangles")
-    h1 = (input("Enter the height of ceiling 1 (sq feet): ")) # prompt for width
-    l1 = (input("Enter the radius of ceiling 1 (sq feet): ")) # prompt for length
-    h2 = (input("Enter the height of ceiling 2 (sq feet): ")) # prompt for width
-    l2 = (input("Enter the radius of ceiling 2 (sq feet): ")) # prompt for length
     
     if isinteger(h1) and isinteger(h2) and isinteger(l1) and isinteger(l2):
         h1 = int(h1)
@@ -48,13 +41,18 @@ def Lshaped():
         # displaying the final output
         print(f"You will need to purchase {num_gallon} gallons of paint \nto cover {total_area} square feet. ")
 
-def choose_room():
+if __name__ == "__main__":
     room = input("Enter the room(L-shaped, round, rectangle): ")
     if room.lower() == "round":
+        r = (input("Enter the radius of ceiling(sq feet): ")) # prompt for radius
         circle()
     elif room.lower() == "rectangle":
+        h = (input("Enter the height of ceiling(sq feet): ")) # prompt for width
+        l = (input("Enter the radius of ceiling(sq feet): ")) # prompt for length
         rectangle()
     if room.lower() in ["l-shaped", "lshaped", "l shaped"]:
+        h1 = (input("Enter the height of ceiling 1 (sq feet): ")) # prompt for width
+        l1 = (input("Enter the radius of ceiling 1 (sq feet): ")) # prompt for length
+        h2 = (input("Enter the height of ceiling 2 (sq feet): ")) # prompt for width
+        l2 = (input("Enter the radius of ceiling 2 (sq feet): ")) # prompt for length
         Lshaped()
-       
-choose_room()
