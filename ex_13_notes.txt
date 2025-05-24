@@ -1,0 +1,17 @@
+SAMPLE INPUT:
+What is the principal amount? 1500
+What is the rate? 25
+What is the number of years? 4
+What is the number of times the interest
+is compounded per year? 6
+
+SAMPLE OUTPUT:
+$1500.0 invested at 25.0% for 4 years
+compounded 6 times per year is $3995.6.
+
+STEPS TO WRITE THE CODE:
+1. importing math module to use ceil (rounding off)
+2. prompting the user for principal_amount,interest_rate, years, number_of_periods
+3. converting the rate to decimal
+4. calculating the compounded interest through the formula
+5. round off the compounded interest and display it

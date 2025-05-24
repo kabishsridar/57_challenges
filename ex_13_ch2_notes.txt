@@ -1,0 +1,17 @@
+SAMPLE INPUT:
+--- Reverse Compound Interest Calculator ---
+What is your desired final amount? 1875
+What is the interest rate (in %)? 15
+What is the number of years? 4
+How many times is the interest compounded per year? 6
+
+SAMPLE OUTPUT:
+To reach $1875.0 at 15.0% interest over 4 years,
+compounded 6 times per year, you need to invest $1036.65.
+
+STEPS TO WRITE THE CODE:
+1. import math module to use ceil (rounding off) and pow (power)
+2. prompt the user for target_amount, rate, years, compound_interest in float
+3. convert the rate to decimal
+4. calculate the principaal amount through the formula
+5. display the output
