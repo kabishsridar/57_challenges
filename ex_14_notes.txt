@@ -1,0 +1,21 @@
+SAMPLE INPUT:
+1. What is the order amount? 10
+What is the state? WI
+
+2. What is the order amount? 10
+What is the state? KA
+
+SAMPLE OUTPUT:
+1. The subtotal is $10.0.
+The tax is $0.56.
+The total is $10.56.
+
+2. The total is $10.0.
+
+STEPS TO WRITE THE CODE:
+1. import math module to round off the integer
+2. prompt the user for order_amount, state
+3. initiate tax rate as 0.055 and tax as 0
+4. subtotal is the order amount normally, so assigned subtotal = order_amount
+5. if the input is WI then it should calculate the tax and subtotal according to that
+6. if the input is WI, then it should return the subtotal, tax, total. else it should retun only the total

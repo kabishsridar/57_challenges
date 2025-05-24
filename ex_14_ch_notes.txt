@@ -1,0 +1,25 @@
+SAMPLE INPUT1:
+What is the order amount? 10
+What is the state? KA
+
+SAMPLE OUTPUT1:
+The total is $10.0.
+
+SAMPLE INPUT2:
+What is the order amount? 10
+What is the state? WI
+
+SAMPLE OUTPUT2:
+The subtotal is $10.0.
+The tax is $0.56.
+The total is $10.56.
+
+STEPS TO WRITE THE CODE:
+1. import the math module to use ceil function
+2. prompt the user for order_amount, state
+3. initiate tax rate as 0.055 and tax as 0
+4. asign order_amount to subtotal
+5. assign states = "WISCONSIN RESIDENTS" to check for state
+6. using if statements check the state prompted by the user is WI or the full name with mixed upper case and lower case or the abbreviation with mixed uppercase and lowercase
+7. if it is true, then calculate tax((order_amount * tax_rate * 100) / 100) and subtotal and total(order_amount + tax) according to the question and rount it off
+8. again check for the state and return the subtotal and tax only for wi for other than wi ,just display the total
