@@ -1,0 +1,37 @@
+SAMPLE INPUT:
+Enter the username: kabish
+What is your password?
+
+SAMPLE OUTPUT:
+Welcome!
+
+SAMPLE INPUT2:
+Enter the username: kamal
+What is your password?
+
+SAMPLE OUTPUT:
+Welcome!
+
+SAMPLE INPUT3:
+Enter the username: kabish
+What is your password?
+
+SAMPLE OUTPUT3:
+I don't know you
+
+SAMPLE INPUT4:
+Enter the username: kamal
+What is your password?
+
+SAMPLE OUTPUT4:
+I don't know you
+
+STEPS TO WRITE THE CODE:
+1. import getpass to hide the password from being displayed
+2. prompt the user for username and password
+3. initiate the original username and password for each
+4. define a function named check_password to check password
+5. use global passwd
+6. if the user name is kabish and password is abc$123 then print Welcome! else print I don't know you
+7. if the user name is kamal and password is 123kamal then print welcome! else print I don't know you
+8. call the function to begin
