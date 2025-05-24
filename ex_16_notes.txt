@@ -1,0 +1,16 @@
+SAMPLE INPUT1:
+What is you Age? 15
+
+SAMPLE OUTPUT1:
+You are not old enough to legally drive
+
+SAMPLE INPUT2:
+What is you Age? 17
+
+SAMPLE OUTPUT2:
+You are old enough to legally drive
+
+STEPS TO WRITE THE CODE:
+1. prompt the user for the age and store it as age
+2. if age is greater than or equal to 16 print You are old enough to legally drive
+3. else print You are not old enough to legally drive make this through single print statement
