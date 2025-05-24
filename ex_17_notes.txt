@@ -1,0 +1,28 @@
+SAMPLE INPUT:
+Enter your weight: 75
+Enter your gender (M / F): M
+Enter the number of drinks: 3
+the amount of alcohol by volume of the drinks consumed: 1
+Enter the amount of time since your last drink in hours: 1
+
+SAMPLE OUTPUT:
+Your BAC is 0.035
+You can drive
+
+SAMPLE INPUT2:
+Enter your weight: 75
+Enter your gender (M / F): F
+Enter the number of drinks: 4
+the amount of alcohol by volume of the drinks consumed: 4
+Enter the amount of time since your last drink in hours: 1
+
+SAMPLE OUTPUT2:
+Your BAC is 0.16592800000000002
+its illegal for you to drive
+
+STEPS TO WRITE THE CODE:
+1. prompt the user for inputs
+2. check whether its male or female
+3. if it is male, assign r as 0.73 and if it is female, assign r as 0.66
+4. calculate BAC with given formula
+5. if BAC less than or equal to 8 you can drive else its illegal for you to drive
