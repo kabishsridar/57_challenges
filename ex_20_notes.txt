@@ -1,0 +1,26 @@
+SAMPLE INPUT1:
+What is the order amount? 10
+What state do you live in? wi
+What county do you live in? dunn
+
+SAMPLE OUTPUT2:
+The tax is $0.54.
+The total is $10.54.
+
+SAMPLE INPUT2:
+What is the order amount? 10
+What state do you live in? wi
+What county do you live in? eau claire 
+
+SAMPLE OUTPUT2:
+The tax is $0.56.
+The total is $10.56.
+
+STEPS TO WRITE THE CODE:
+1. import math module for ceil function
+2. prompt the user for order amount and state
+3. initiate tax as 0
+4. check the state. if it is wisconsin, check whether dunn or eau claire. if it is illinois, initiate tax rate as 0.08
+5. for eau claire add tax rate 0.005 and for dunn add 0.004
+6. round off the total
+7. display the amount
