@@ -1,11 +1,13 @@
 unit = "" # initiating unit as an empty string
+units = input("Choose between Feet or Meters to display the output: ") # prompt the user for unit
 def choose_unit(): # defining a function to choose the units by the user
     global unit
-    units = input("Choose between Feet or Meters to display the output: ") # prompt the user for unit
+    global units
     if units in ["meter", "meters", "square meter", "square meters"]: # check whether it is meters, if it is meters, then the unit will be square meters
         unit = "Square meters"
     elif units in ["feet","feets","Square feet","Square feets"]: # else it is square feet
         unit = "Square feet"
+        
 def isinteger(a): # checking whether it is a digit
     if a.isdigit(): 
         return True
@@ -22,7 +24,6 @@ width = int(room_width)
 
 area_in_feet = width * length # calculate area of room
 area_in_metre_sq = area_in_feet * 0.09290304 # convert to square meters
-
 
 if isinteger(room_length) and isinteger(room_width) : # it should run only if it is a digit 
     choose_unit()
