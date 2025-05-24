@@ -1,0 +1,13 @@
+SAMPLE INPUT:
+Enter height in inches: 70
+Enter weight in pounds: 154
+
+SAMPLE OUTPUT:
+Normal weight
+
+STEPS TO WRITE THE CODE:
+1. prompt for height and weight
+2. calculate bmi through the formula
+3. if bmi is greater than 18.5 and 25, display normal weight
+4. if bmi greater than 25, display overweigh
+5. if bmi is lesser than 18.5, display underweight
