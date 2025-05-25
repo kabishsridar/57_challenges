@@ -38,7 +38,7 @@ def move_file_to_folder(foldername):
 # move_file_to_folder("ex_18")
 
 if __name__ == "__main__":
-    for folder in range(3):
-        foldername = f"ex_{folder+24}"
+    for folder in range(5):
+        foldername = f"ex_{folder+27}"
         print(foldername)
         move_file_to_folder(foldername)
