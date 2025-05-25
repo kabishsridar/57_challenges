@@ -1,0 +1,39 @@
+SAMPLE INPUT:
+Enter the first name: kabish
+Enter the last name: sridar
+Enter the zip code: 12345
+Enter the employee ID: AA-123
+
+SAMPLE OUTPUT:
+Correct first name
+Correct last name 
+Correct EID       
+Correct zip code  
+
+SAMPLE INPUT2:
+Enter the first name: kabish
+Enter the last name: sridar
+Enter the zip code: 1@42
+Enter the employee ID: AA32k
+
+SAMPLE OUTPUT2:
+Correct first name
+Correct last name
+not valid. the Employee Id contains 6 characters
+not valid, after two numbers, hyphen should be there
+not valid, last four characters should be integers
+The zip code must be integer
+
+STEPS TO WRITE THE CODE:
+1. define a function named employee_id to check the input matches the correct format of employee Id
+2. if length is less than 6, or first two characters are other than alphabets, or the 2nd index is not a hyphen, or the last four numbers are not numbers. it should display not valid
+3. else it should display correct EID
+4. define a function firstname to check firstname
+5. if the firstname is an empty string, or less than 2 characters, display the error message
+6. else display correct first name
+7. define a function named lastname and apply the same conditions to lastname as firstname
+8. define a function zip_code and check the zip code entered by user is in correct format
+9. if it is other than digit, display error message. else display correct zip code
+10. define a function named validate_input and call all the functions discussed above
+11. prompt the user for first name, last name, Employee id, zip code and store it
+12. call the function validate_input to execute
