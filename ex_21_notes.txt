@@ -1,0 +1,12 @@
+SAMPLE INPUT:
+Please enter the number of the month: 8
+
+SAMPLE OUTPUT:
+The name of the month is August.  
+
+STEPS TO WRITE THE CODE:
+1. prompt the user for month_number and store it as month_number
+2. use a match case to determine the month name 
+3. match {variable} : is like looping to get each value of the variable
+4. case 1: month = "january" indicates that if input is 1 set month as january and so on for 12 months
+5. display the output in single line
