@@ -1,0 +1,19 @@
+SAMPLE INPUT:
+enter how many numbers to add: 5
+Enter a number: 1
+Enter a number: 5
+Enter a number: df
+Enter a number: gf
+Enter a number: g
+
+SAMPLE OUTPUT:
+The total is 6 and the attempts are 3
+
+STEPS TO WRITE THE CODE:
+1. initiate total, attempts as 0
+2. prompt the user for how many numbers to add
+3. loop through the numbers to add
+4. prompt the user for number
+5. if it is not a digit, add 1 to attempts for each non digit character
+6. else calculate the total 
+7. display both total and attempts
