@@ -1,0 +1,13 @@
+SAMPLE INPUT:
+Enter the first number: 5
+Enter the second number: 4
+Enter the third number: 9
+
+SAMPLE OUTPUT:
+The largest number is 9
+
+STEPS TO WRITE THE CODE:
+1. prompt the user for first, second, third number to check
+2. if first number is greater than other two, display the largest number as first
+3. if second number is greater than other two, display the largest number as second
+4. if third number is greater than other two, display the largest number as third

@@ -1,0 +1,17 @@
+SAMPLE INPUT:
+Is the car silent when you turn the key? y
+Are the battery terminal corroded? n
+
+SAMPLE OUTPUT:
+Replace cables and try again    
+
+SAMPLE INPUT2:
+Is the car silent when you turn the key? y
+Are the battery terminal corroded? y
+
+SAMPLE OUTPUT 2:
+Clean terminals and try starting again
+
+STEPS TO WRITE THE CODE:
+1. prompt the user for is the car silent when you turn the key?
+2. then use nested if and elif to make the tree table to a code by if silent, then ask for another input and if it is not silent, ask for another input
