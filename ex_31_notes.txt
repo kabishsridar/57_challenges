@@ -1,0 +1,24 @@
+SAMPLE INPUT:
+Age: 22
+Enter the resting pulse: 65
+
+SAMPLE OUTPUT:
+-------------------------
+|55%        |   138 bpm |
+|60%        |   145 bpm |
+|65%        |   151 bpm |
+|70%        |   158 bpm |
+|75%        |   165 bpm |
+|80%        |   171 bpm |
+|85%        |   178 bpm |
+|90%        |   185 bpm |
+|95%        |   191 bpm |
+-------------------------
+
+STEPS TO WRITE THE CODE:
+1. defining a function named check_numbers
+2. if it is a number , prompt the user for age, resting_heart_rate
+3. loop from 55 to 95 with step count as 5
+4. convert the intensity percentage to decimal for calculation
+5. calculate target_rate by the given formula
+6. display the box as mentioned in the question using string replication
