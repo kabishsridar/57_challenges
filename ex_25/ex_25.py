@@ -18,7 +18,7 @@ def password_validator(password):
         print(f"The password {password} is strong")
     elif has_symbol and has_letter and has_number and len(password) >= 8:
         print(f"The password {password} is very strong")
-            
-password = input("Enter the password: ")
 
-password_validator(password)
+if __name__ == "__main__":
+    password = input("Enter the password: ")
+    password_validator(password)
