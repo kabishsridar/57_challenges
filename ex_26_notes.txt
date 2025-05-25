@@ -1,0 +1,15 @@
+SAMPLE INPUT:
+What is your balance? 10000
+What is the APR on the card (as a percent)? 12
+What is the monthly payment you can make? 150
+
+SAMPLE OUTPUT:
+It will take you 110 months to pay off this card.
+
+STEPS TO WRITE THE CODE:
+1. import math module to use ceil function and round it off to next
+2. define a function calculateMonthsUntilPaidOff to calculate months
+3. prompt for balance, APR, monthly payment from the user
+4. seperate the calculation as numerator and denominator to make the calculations easy
+5. after calculating, ound it to next
+6. display the output
