@@ -1,0 +1,37 @@
+SAMPLE INPUT:
+Let's play Guess the Number.
+difficulty levels: 
+1. 1 to 10
+2. 1 to 100
+3. 1 to 1000
+Pick a difficulty level (1, 2 or 3): 1
+I have my number. What's your guess? 5
+Too high. Guess again:
+I have my number. What's your guess? 4
+Too high. Guess again:
+I have my number. What's your guess? 3
+Too high. Guess again:
+I have my number. What's your guess? 2
+Too high. Guess again:
+I have my number. What's your guess? 1
+You got it in 5 guesses!
+Play again? (y/n): N
+Goodbye!
+
+STEPS TO WRITE THE CODE:
+1. import random module to guess the number by the system
+2. define a function named difficulty level
+3. set the range according to the question for each levels
+4. define a function named play_game
+5. use while loop and ask for difficulty level and proceed with choose_difficulty function for randint and assign it as num_computer
+6. if it is None display an error message
+7. initiate guess_count as 0 to track the number of guesses
+8. use a while loop and prompt for the number from user and add 1 to guess_count
+9. if the input from the user is not a number, display an error message
+10. if guess in less than num_computer, display Too low
+11. if guess is greater tha n num_computer, display Too high
+12. else, display the number of guesses and you got it message and break
+13. define a function loop and prompt the user whether to play again
+14. if y, then loop it
+15. else, Goodbye
+16. run the function by __name__ == "__main__"
