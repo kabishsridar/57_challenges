@@ -1,0 +1,17 @@
+SAMPLE INPUT:
+What is the rate of return? 0
+Sorry, DivisionByZeroError
+What is the rate of return? g
+Sorry, Only integers accepted
+What is the rate of return? 4
+
+SAMPLE OUTPUT:
+It will take 18.0 years to double your initial investment
+
+STEPS TO WRITE THE CODE:
+1. use while loop untill it breaks
+2. prompt the user for rate
+3. if it is 0 or non digit display error message for both seperately
+4. if it is a digit, convert to integer, and break out of function
+5. calculate years by formula
+6. display the output only after the program breaks
