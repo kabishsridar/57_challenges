@@ -1,0 +1,14 @@
+SAMPLE INPUT:
+Enter two strings and I'll tell you if they
+are anagrams:
+Enter the first string: encyclopedia
+Enter the second string: cycleopedian
+
+SAMPLE OUTPUT:
+encyclopedia and cycleopedian are anagrams.
+
+STEPS TO WRITE THE CODE:
+1. define a function named isanagram with two arguements
+2. if length of both are same return True and sorted words by arranging them alphabetically are same 
+3. prompt the user for word1 and word2
+4. check with isanagram and display the output
