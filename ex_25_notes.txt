@@ -1,0 +1,30 @@
+SAMPLE INPUT1:
+Enter the password: dklsgfj23@
+
+SAMPLE OUTPUT1:
+The password dklsgfj23@ is very strong
+
+SAMPLE INPUT2:
+Enter the password: 2354 
+
+SAMPLE OUTPUT2:
+The password 2354 is a very weak password
+
+SAMPLE INPUT3:
+Enter the password: KABSIHS
+
+SAMPLE OUTPUT3:
+The password KABSIHS is a weak password
+
+SAMPLE INPUT4:
+Enter the password: akj245df56
+
+SAMPLE OUTPUT4:
+The password akj245df56 is strong
+
+STEPS TO WRITE THE CODE:
+1. define a function password_validator to check the strength
+2. assign has_letter, has_number and has_symbol as False to track for the very strong password_validator
+3. check for each character in password as if any of the character in password is integer, alphabetical, contain symbol all
+4. use if operator and check through the conditions from the question
+5. prompt the user for input and call the function with input as parameter
