@@ -1,0 +1,33 @@
+SAMPLE INPUT 1:
+What's your question? are you a machine?
+
+SAMPLE OUTPUT 1:
+Yes
+
+SAMPLE INPUT 2:
+What's your question? shall i ask you a question
+
+SAMPLE OUTPUT 2:
+Yes
+
+SAMPLE INPUT 3:
+What's your question? shall i ask you a question
+
+SAMPLE OUTPUT 3:
+Ask
+
+SAMPLE INPUT 4 :
+What's your question? shall i ask you a question
+
+SAMPLE OUTPUT 4:
+No
+
+STEPS TO WRITE THE CODE:
+1. import random module for answers
+2. define a function named answers to choose answers
+3. initiate choice lst as the poosible answers list from the question
+4. initiate an empty list choice
+5. use random module to select the numbers between 1 to 4
+6. as each numbers represent each answer. assign through if condition
+7. display the choice in last of the function
+8. prompt the user for question from user
