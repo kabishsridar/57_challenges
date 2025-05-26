@@ -1,0 +1,28 @@
+SAMPLE INPUT:
+There are 5 employees:
+john smith
+jackie jackson
+chris jones
+amanda cullen
+jeremy godwin
+
+Enter an employee name to remove: john smith
+
+SAMPLE OUTPUT:
+Ther are 4 employees.
+jackie jackson
+chris jones
+amanda cullen
+jeremy godwin
+
+STEPS TO WRITE THE CODE:
+1. assign employees name to a list named employees
+2. display the number of employees
+3. using for loop, display all the employee names 
+4. prompt the user for employee name to be removed
+5. define a function to remve employee name from list
+6. loop throught each employee and check whether the input matches with employee name
+7. if it matches, remove the name from list
+8. display number of employees after removing
+9. loop through each employee names after removed and diplay the employee names
+10. begin the function with main function
