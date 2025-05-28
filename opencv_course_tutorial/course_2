@@ -1,0 +1,18 @@
+import cv2 as cv
+
+img = cv.imread('opencv_tutorial\\messi5.jpg')
+
+blur = cv.GaussianBlur(img, (7,7), cv.BORDER_DEFAULT)
+# cv.imshow('blur', blur)
+canny = cv.Canny(blur, 125, 175)
+cv.imshow('canny', canny)
+
+dilated = cv.dilate(canny, (7,7), iterations=1)
+cv.imshow('dilated', dilated)
+
+eroded = cv.erode(dilated,(3,3), iterations=1)
+cv.imshow('Eroded', eroded)
+
+cropped = img[50:200, 200:400]
+cv.imshow('cropped', cropped)
+cv.waitKey(0)
