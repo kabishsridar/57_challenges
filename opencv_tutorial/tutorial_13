@@ -1,0 +1,4 @@
+STEPS TO WRITE THE CODE:
+1. import cv2 and numpy
+2. to use live camera, use videocapture class and store as variable cap
+3. 
