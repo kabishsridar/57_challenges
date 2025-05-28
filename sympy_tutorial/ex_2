@@ -1,0 +1,6 @@
+from sympy import symbols
+x = symbols("x")
+expr = x**2 + 1
+x = 2
+print(expr)
+print(expr.subs(x, 2))
