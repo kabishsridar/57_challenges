@@ -32,6 +32,7 @@ print(ord('q'))
 while(1):
     cv.imshow('Webcam Doodle', frame)
     if cv.waitKey(1) == ord('q'):
+        # print("Breaked")
         break
     # print(ord('q'))
     # print(cv.waitKey(1))
