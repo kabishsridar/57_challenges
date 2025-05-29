@@ -1,0 +1,33 @@
+SAMPLE INPUT:
+Ling, Mai
+Johnson, Jim
+Zarnecki, Sabrina
+Jones, Chris
+Jones, Aaron
+Swift, Geoffrey
+Xiong, Fong
+
+SAMPLE OUTPUT:
+Total of 7 names
+------------------------------
+Johnson, Jim
+Jones, Aaron
+Jones, Chris
+Ling, Mai
+Swift, Geoffrey
+Xiong, Fong
+Zarnecki, Sabrina
+
+STEPS TO WRITE THE CODE:
+1. open file in read mode
+2. initiate an empty list to store names
+3. loop through each line and store it to stripped line after strip
+4. close the file
+5. define a function to sort names
+6. initiate sorted_names to empty list
+7. sort the names and return it
+8. define a function to write the stored names to new file
+9. open the file in write mode
+10. loop through each name and write and move the cursor to next line by \n
+11. close the file
+12. call the function write and display that the file is saved correctly

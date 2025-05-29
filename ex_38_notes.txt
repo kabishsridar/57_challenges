@@ -1,0 +1,12 @@
+SAMPLE INPUT:
+Enter a list of numbers, seperated by spaces: 2 4 6 5 3 1 
+
+SAMPLE OUTPUT:
+The even numbers are [2, 4, 6]
+
+STEPS TO WRITE THE CODE:
+1. prompt the user for numbers to check
+2. define a function named filterEvenNumbers to check whether it is even
+3. loop through each number in the list and check for even number
+4. if even, then add to the even list
+5. call the function and display the answer
