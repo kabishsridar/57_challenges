@@ -1,3 +1,0 @@
-STEPS TO WRITE THE CODE:
-1. instead of getting input in place of guess, we can assign random randint with if, elif according to the question
-2. remove isdigit function as we are initiating guess as number, isdigit function only works with string

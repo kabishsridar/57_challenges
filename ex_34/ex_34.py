@@ -8,7 +8,6 @@ def remove_employee():
     for employee in employees: # loop for each employees
         if remove == employee: # if the input by the user matches with any employee name remove the name
             employees.remove(remove)
-        
     print(f"\nThere are {len(employees)} employees.") # display number of employees after removing
     for unchanged in employees: # display the employee names except the removed one
         print(unchanged)
