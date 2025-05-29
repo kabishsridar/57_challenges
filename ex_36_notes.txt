@@ -1,0 +1,22 @@
+SAMPLE INPUT:
+Enter a number: 100
+Enter a number: 200
+Enter a number: 300
+Enter a number: done
+
+SAMPLE OUTPUT:
+Numbers: 100, 200, 300
+The average is 200.00
+The minimum is 100
+The maximum is 300
+The standard deviation is 81.65
+
+STEPS TO WRITE THE CODE:
+1. import the math module
+2. initiate array as an empty list
+3. loop untill the user enters done to prompt the user for number
+4. display the numbers enteres in a same line
+5. to find average, create a function find_avg and use total/length for mean(average)
+6. to find minimum and maximum, use min, max functions from math and name it as find_min_max function
+7. to find standard deviation, use the function find_std_dev and calculate by finding varience and then the standard deviation
+8. call the functions to execute

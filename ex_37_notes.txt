@@ -1,0 +1,20 @@
+SAMPLE INPUT:
+What's the length of password? 8
+How many special character? 3
+How many numbers? 4
+
+SAMPLE OUTPUT:
+Your password is: 7~165^!c
+
+STEPS TO WRITE THE CODE:
+1. import random module to choose password
+2. prompt user for length of password, number of special characters, number of integers
+3. assign alphabets, special characters and numbers
+4. check that the sum of special character and integers should not exceed maximum length if exceeds, break and error message
+5. else, initiate password as an empty list and track the password
+6. loop through number of special characters as per user and use choice to select the item from the assigned list and append it to password
+7. loop through number of integers as per user and use choice to select the item from the assigned list and append it to password
+8. loop through number of characters remaining as per user's length of password and use choice to select the item from the assigned list and append it to password
+9. shuffle the order of password as , first it will give n spl char,n num and then n alphabet in order, so we are shuffling it
+10. convert from list to string through join password to empty string
+11. display the password

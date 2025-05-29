@@ -1,0 +1,32 @@
+SAMPLE EXECUTION:
+Enter a name: kabish
+Enter a name: kamal
+Enter a name: chutki
+Enter a name: 
+The Winner is ... kabish
+kabish
+Removing kabish from the array...
+Updated array: ['kamal', 'chutki']
+Do you want to play again after removing the contestant (y/n): y
+Enter a name: bot
+Enter a name: sanjay
+Enter a name: 
+The Winner is ... bot
+bot
+Removing bot from the array...
+Updated array: ['kamal', 'chutki', 'sanjay']
+Do you want to play again after removing the contestant (y/n): n
+Thank you for playing. The game ends.
+
+STEPS TO WRITE THE CODE:
+1. import random module
+2. initiate array as an empty list
+3. define a function named play
+4. loop untill the user enters empty string and prompt for person name
+5. if the name is an empty string, break
+6. choose a winner by random module
+7. Store the winner before removing
+8. display the winner
+9. if there are players left, ask do you want to play again?
+10. if yes call the function play
+11. else, give a message game ends

@@ -1,0 +1,16 @@
+SAMPLE INPUT:
+Enter a name:kabish
+Enter a name:kamal
+Enter a name:chutki
+Enter a name:
+
+SAMPLE OUTPUT:
+the Winner is ...chutki
+
+STEPS TO WRITE THE CODE:
+1. import the module random to choose the Winner
+2. initiate array as an empty list
+3. untill the input is empty the loop should ask for the name and append it to the array
+4. find number of person in the array
+5. choose the winner by using random
+6. display the winner.
