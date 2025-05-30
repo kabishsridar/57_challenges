@@ -1,0 +1,20 @@
+SAMPLE INPUT:
+
+Enter a search string: kab
+
+SAMPLE OUTPUT:
+
+EMPID  | NAME         | AGE | SALARY   | MAILID             | MOBILE       | DEPT                      | GENDER | BRANCH
+----------------------------------------------------------------------------------------------------------------------------------
+1      | KABISH       | 17  | 500000   | KABISHSRIDAR6      | 9524930380   | FOUNDER                   | M      |  NAMAKKAL
+
+STEPS TO WRITE THE CODE:
+1. import mysql connector the database and execute the commands
+2. check whether it is connected properly
+3. execute the command SELECT * FROM USER;
+4. fetch those processed data 
+5. order the headings for the table
+6. initiate found as false
+7. check each word through for loop and if the prompt is in the line, return true
+8. display after the match is correct
+9. close the opened file
