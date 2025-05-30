@@ -1,0 +1,25 @@
+SAMPLE OUTPUT: 
+
+EMPID  | NAME         | AGE | SALARY   | MAILID             | MOBILE       | DEPT                      | GENDER | BRANCH
+----------------------------------------------------------------------------------------------------------------------------------
+1      | KABISH       | 17  | 500000   | KABISHSRIDAR6      | 9524930380   | FOUNDER                   | M      |  NAMAKKAL       
+2      | SADHANA      | 17  | 475000   | SADHU              | 9655245872   | SECRETARY                 | F      | NAMAKKAL        
+3      | SHARVAESH    | 17  | 400000   | SHIYABHUSHIYU      | 8489340413   | PROJECT MANAGER           | M      | NAMAKKAL        
+4      | SUSHMITHA    | 22  | 450000   | SUSHH              | 9566655700   | TL                        | F      | BANGLORE        
+5      | SANJUTHA     | 15  | 400000   | SAN                | 9567435846   | APP DEVELOPER             | F      | BANGLORE        
+6      | KAVYA        | 18  | 450000   | KAVYA              | 9342353646   | COO                       | F      | CHENNAI
+7      | SURYA        | 17  | 400000   | SURXA              | 9468578512   | APP DEVELOPER             | M      | CHENNAI
+8      | NAMZ         | 17  | 300000   | NAMZ123            | 9465734985   | ASSISTANT PROJECT MANAGER | M      | CHENNAI
+9      | CHUTKI       | 17  | 350000   | RSARVV             | 9433456512   | WEB DESIGNER              | M      | CHENNAI
+10     | HEMASREE     | 19  | 350000   | HEMAA              | 9435126485   | WEB DESIGNER              | F      | BANGLORE        
+11     | YATHRA       | 15  | 300000   | YT3                | 9342353646   | GAME DESIGNER             | M      | NAMAKKAL
+12     | RAJKUMAR     | 25  | 40000    | RAJ                | 9547862566   | MANAGER                   | M      | BANGLORE
+
+STEPS TO WRITE THE CODE:
+1. import mysql connector the database and execute the commands
+2. check whether it is connected properly
+3. execute the command SELECT * FROM USER;
+4. fetch those processed data 
+5. order the headings for the table
+6. loop through each row and print the items each one by one 
+7. close the function.
