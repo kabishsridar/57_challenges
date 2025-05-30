@@ -1,0 +1,20 @@
+SAMPLE OUTPUT:
+Last       | First        | Salary    
+----------------------------------------
+Ling       | Mai          | 55900
+Johnson    | Jim          | 56500
+Jones      | Aaron        | 46000
+Jones      | Chris        | 34500
+Swift      | Geoffrey     | 14200
+Xiong      | Fong         | 65000
+Zarnecki   | Sabrina      | 51500
+
+STEPS TO WRITE THE CODE:
+1. open a csv file
+2. initiate an empty list named names to store the name in csv file
+3. loop through each line
+4. append the line to names
+5. align the headings
+6. loop through each line and Ignore empty lines
+7. wherever the comma is detectd, seperate there
+8. display the output and close the file
