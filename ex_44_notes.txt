@@ -1,0 +1,13 @@
+SAMPLE INPUT:
+What is the product name? widget
+
+SAMPLE OUTPUT:
+Product: Widget
+Price: $25.0
+Quantity: 5
+
+STEPS TO WRITE THE CODE:
+1. assign the values for dictionary in dict
+2. use while loop and ask for product name upto it matches
+3. loop through each products and check. if it matches, display the details
+4. else print not found message

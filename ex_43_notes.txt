@@ -1,0 +1,29 @@
+SAMPLE INPUT:
+Site name: kabish
+Author: james
+Do you want a folder for Javascript? (y/n): y
+Do you want a folder for CSS? (y/n): y
+
+SAMPLE OUTPUT:
+Created ./kabish
+Created ./kabish/index.html
+Created ./kabish/js
+Created ./kabish/css
+ AND IN THE FILE index.html:
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="james">
+    <title>kabish</title>
+</head>
+<body>
+        <h1>WELCOME TO kabish</h1>
+</body>
+</html>
+
+STEPS TO WRITE THE CODE:
+1. prompt the user for sitename, author, whether they need folder for js and css
+2. create and open a file index.html, javascript.js, stylesheet.css
+3. write the html code into index.html
+4. print the created message according to INPUT
