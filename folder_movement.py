@@ -22,7 +22,6 @@ import shutil # importing shutil module to move the file to dedicated path
 # dict1 = {"name":"os", "functions": []}
 # print(f"list names: {list_filenames}")
 
-
 def move_file_to_folder(foldername):
     list_filenames = os.listdir(".") # it will include also the folders
     os.mkdir(foldername)
@@ -38,7 +37,7 @@ def move_file_to_folder(foldername):
 # move_file_to_folder("ex_18")
 
 if __name__ == "__main__":
-    for folder in range(2):
-        foldername = f"ex_{folder+41}"
+    for folder in range(4):
+        foldername = f"ex_{folder+43}"
         print(foldername)
         move_file_to_folder(foldername)
