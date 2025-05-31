@@ -1,0 +1,16 @@
+SAMPLE INPUT:
+One should never utilize the word "utilize" in
+writing. Use "use" instead.
+
+SAMPLE OUTPUT:
+One should never use the word "use" in
+writing. Use "use" instead.
+
+STEPS TO WRITE THE CODE:
+1. prompt for output file name
+2. open the file in read mode to read the content to be modified
+3. read the file
+4. replace use in place of utilize
+5. open the file in write mode
+6. write the modified content to output file
+7. print written message
