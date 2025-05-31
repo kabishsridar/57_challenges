@@ -1,0 +1,11 @@
+SAMPLE OUTPUT:
+badger:   *******
+mushroom: **
+snake:    *
+
+STEPS TO WRITE THE CODE:
+1. open the file in read mode
+2. read the file and store it as content
+3. count the number of badgers, mushroom , snake in the input file
+4. display number of asterisk for number of badgers in first line representing badgers
+5. in second line, display the number asterisk for number of mushroom and the third for snake.
