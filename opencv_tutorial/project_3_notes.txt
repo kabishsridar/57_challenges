@@ -1,0 +1,6 @@
+STEPS TO WRITE THE CODE:
+1. read the image thorugh live webcam 
+2. detect the object using canny edge detection
+3. get coordinates
+4. convert to mm
+5. display the distance between two object in mm
