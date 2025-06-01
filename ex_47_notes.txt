@@ -1,0 +1,22 @@
+SAMPLE OUTPUT:
+NAME                 |  Craft
+------------------------------    
+Oleg Kononenko       |  ISS       
+Nikolai Chub         |  ISS       
+Tracy Caldwell Dyson |  ISS       
+Matthew Dominick     |  ISS       
+Michael Barratt      |  ISS       
+Jeanette Epps        |  ISS       
+Alexander Grebenkin  |  ISS       
+Butch Wilmore        |  ISS       
+Sunita Williams      |  ISS       
+Li Guangsu           |  Tiangong  
+Li Cong              |  Tiangong
+Ye Guangfu           |  Tiangong
+
+STEPS TO WRTIE THE CODE:
+1. import requests module
+2. get the data from url and store it
+3. print the number of peoples in space using len
+4. align name and craft according to the tabular column
+5. display the name and craft in tabular column
