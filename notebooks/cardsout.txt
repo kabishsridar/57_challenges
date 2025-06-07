@@ -1,0 +1,143 @@
+
+The output for the file 1: 
+Player A scores 2 point(s) for queen. 
+Player A scores 1 point(s) for jack. 
+Player A scores 1 point(s) for jack. 
+Player A scores 1 point(s) for jack. 
+Player A scores 2 point(s) for queen. 
+Player A scores 1 point(s) for jack. 
+Player B scores 2 point(s) for queen. 
+Player B scores 4 point(s) for ace. 
+
+Final Scores:
+Player A: 8 point(s). 
+Player B: 6 point(s). 
+Player A wins!
+----------------------------------------------------------------------------------------------------
+The output for the file 2: 
+Player B scores 3 point(s) for king. 
+Player A scores 3 point(s) for king. 
+Player A scores 2 point(s) for queen. 
+Player B scores 1 point(s) for jack. 
+Player B scores 1 point(s) for jack. 
+Player B scores 3 point(s) for king. 
+
+Final Scores:
+Player A: 5 point(s). 
+Player B: 8 point(s). 
+Player B wins!
+----------------------------------------------------------------------------------------------------
+The output for the file 3: 
+Player B scores 2 point(s) for queen. 
+Player A scores 1 point(s) for jack. 
+Player B scores 1 point(s) for jack. 
+Player B scores 1 point(s) for jack. 
+Player A scores 3 point(s) for king. 
+Player A scores 4 point(s) for ace. 
+Player A scores 2 point(s) for queen. 
+Player A scores 2 point(s) for queen. 
+
+Final Scores:
+Player A: 12 point(s). 
+Player B: 4 point(s). 
+Player A wins!
+----------------------------------------------------------------------------------------------------
+The output for the file 4: 
+Player A scores 1 point(s) for jack. 
+Player A scores 1 point(s) for jack. 
+Player B scores 2 point(s) for queen. 
+Player A scores 2 point(s) for queen. 
+Player A scores 3 point(s) for king. 
+Player A scores 3 point(s) for king. 
+Player B scores 1 point(s) for jack. 
+
+Final Scores:
+Player A: 10 point(s). 
+Player B: 3 point(s). 
+Player A wins!
+----------------------------------------------------------------------------------------------------
+The output for the file 5: 
+Player A scores 1 point(s) for jack. 
+Player A scores 3 point(s) for king. 
+Player A scores 3 point(s) for king. 
+Player B scores 2 point(s) for queen. 
+Player B scores 2 point(s) for queen. 
+Player A scores 1 point(s) for jack. 
+Player B scores 2 point(s) for queen. 
+
+Final Scores:
+Player A: 8 point(s). 
+Player B: 6 point(s). 
+Player A wins!
+----------------------------------------------------------------------------------------------------
+The output for the file 6: 
+Player A scores 1 point(s) for jack. 
+Player A scores 1 point(s) for jack. 
+Player B scores 2 point(s) for queen. 
+Player A scores 3 point(s) for king. 
+Player B scores 1 point(s) for jack. 
+Player B scores 3 point(s) for king. 
+Player A scores 3 point(s) for king. 
+
+Final Scores:
+Player A: 8 point(s). 
+Player B: 6 point(s). 
+Player A wins!
+----------------------------------------------------------------------------------------------------
+The output for the file 7: 
+Player A scores 4 point(s) for ace. 
+Player A scores 1 point(s) for jack. 
+Player B scores 1 point(s) for jack. 
+Player B scores 3 point(s) for king. 
+Player B scores 1 point(s) for jack. 
+Player A scores 2 point(s) for queen. 
+Player A scores 3 point(s) for king. 
+Player A scores 1 point(s) for jack. 
+Player B scores 2 point(s) for queen. 
+Player A scores 2 point(s) for queen. 
+
+Final Scores:
+Player A: 13 point(s). 
+Player B: 7 point(s). 
+Player A wins!
+----------------------------------------------------------------------------------------------------
+The output for the file 8: 
+Player A scores 2 point(s) for queen. 
+Player A scores 1 point(s) for jack. 
+Player A scores 1 point(s) for jack. 
+Player A scores 1 point(s) for jack. 
+Player B scores 2 point(s) for queen. 
+Player A scores 1 point(s) for jack. 
+
+Final Scores:
+Player A: 6 point(s). 
+Player B: 2 point(s). 
+Player A wins!
+----------------------------------------------------------------------------------------------------
+The output for the file 9: 
+Player A scores 3 point(s) for king. 
+Player A scores 3 point(s) for king. 
+Player B scores 3 point(s) for king. 
+Player B scores 2 point(s) for queen. 
+Player B scores 2 point(s) for queen. 
+Player B scores 2 point(s) for queen. 
+Player A scores 1 point(s) for jack. 
+
+Final Scores:
+Player A: 7 point(s). 
+Player B: 9 point(s). 
+Player B wins!
+----------------------------------------------------------------------------------------------------
+The output for the file 10: 
+Player A scores 1 point(s) for jack. 
+Player A scores 1 point(s) for jack. 
+Player A scores 2 point(s) for queen. 
+Player A scores 3 point(s) for king. 
+Player B scores 2 point(s) for queen. 
+Player A scores 2 point(s) for queen. 
+
+Final Scores:
+Player A: 9 point(s). 
+Player B: 2 point(s). 
+Player A wins!
+----------------------------------------------------------------------------------------------------
