@@ -1,0 +1,1 @@
+jack 4 2 3 4 4 jack 2 10 9 5 8 king 10 queen 8 6 9 king 3 7 7 5 6 3 king 7 3 ace 8 5 king 8 queen 7 2 10 6 queen 10 2 9 jack jack ace 9 5 4 ace 6 ace queen 

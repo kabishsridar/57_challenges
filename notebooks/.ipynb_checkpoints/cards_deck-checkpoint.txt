@@ -1,0 +1,1 @@
+4, jack, 5, 9, 9, king, 4, 3, 10, queen, 10, 10, 5, 4, 8, 6, king, ace, 6, jack, 7, ace, jack, 3, 8, 2, 5, 3, queen, 9, 3, 6, 5, 2, 4, 8, 8, 7, 6, 9, 7, 2, 10, jack, queen, ace, 2, king, 7, king, queen, ace, 
