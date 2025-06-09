@@ -1,0 +1,9 @@
+STEPS TO WRITE THE CODE:
+1. import csv
+2. define a function named add_expense which should prompt for the purpose and amount and store them.
+3. initate a list and append those entered amount and purpose seperately
+4. define a function show total , which sholud sum the amount enterd from the input.
+5. define a function average, which should sum the total and divide number of entries
+6. define a function highest expense and display the highest amount in the list
+7. define a function display, which should display the amount list and purpose list in a same line if user asks
+8. define a main function which should call those functions according to the user input.
