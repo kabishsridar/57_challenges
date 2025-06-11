@@ -4,7 +4,7 @@ def defanging(inp): # defining a function to defang
     for char in inp: # loop through each character in the inp
         if char != ".": # if the character is not a . then append directly
             result.append(char)
-        if char == ".": # else, append after adding list brackets
+        elif char == ".": # else, append after adding list brackets
             char = "[.]"
             result.append(char)
 
