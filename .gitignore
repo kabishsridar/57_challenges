@@ -5,3 +5,6 @@ opencv_venv/
 .__pycache__
 *.caffemodel
 *.prototxt
+tf_text_graph_ssd.py
+*.png
+*.jpg
