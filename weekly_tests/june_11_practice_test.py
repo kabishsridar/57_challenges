@@ -1,4 +1,3 @@
-inp = input("address: ") # prompt the user for the address
 def defanging(inp): # defining a function to defang
     result = [] # initiating result as an empty list
     for char in inp: # loop through each character in the inp
@@ -10,4 +9,7 @@ def defanging(inp): # defining a function to defang
 
     for char in result:
         print(char, end="") # to display the list in format of string for legible
-defanging(inp) # calling the function
+# defanging(inp) 
+if __name__ == "__main__":
+    inp = input("address: ") # prompt the user for the address
+    defanging(inp) # calling the function
