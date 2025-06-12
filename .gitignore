@@ -3,3 +3,5 @@ opencv_venv/
 .venv/
 .ipynb_checkpoints/
 .__pycache__
+*.caffemodel
+*.prototxt
