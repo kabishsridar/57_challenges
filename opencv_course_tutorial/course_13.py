@@ -1,7 +1,7 @@
 import cv2 as cv
 
 # Load image
-img = cv.imread('opencv_course_tutorial\\bicep.jpg')
+img = cv.imread('C:\\Users\\OMAC\\Pictures\\New folder\\gym\\bicep.jpg')
 
 # Validate image loading
 if img is None:
@@ -13,7 +13,7 @@ cv.imshow('vijay', img)
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 cv.imshow('gray', gray)  # Fixed typo in window name
 
-haar_cascade = cv.CascadeClassifier(r'C:\\kabish_python\\57_challenges\\opencv_course_tutorial\\haar_face.xml')
+haar_cascade = cv.CascadeClassifier(r'haar_face.xml')
 
 if haar_cascade.empty():
     print("Error: Haar Cascade XML file not found. Check the path!")
