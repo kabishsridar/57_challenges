@@ -1,0 +1,11 @@
+1. python -m tkinter to check whether the Tkinter is installed in the pc.
+Key Binding Table:
+| Event                      | Description                |
+| -------------------------- | -------------------------- |
+| `<Button-1>`               | Left mouse click           |
+| `<Button-2>`               | Middle mouse click         |
+| `<Button-3>`               | Right mouse click          |
+| `<Key>`                    | Any key press              |
+| `<Return>`                 | Enter key                  |
+| `<FocusIn>` / `<FocusOut>` | Widget gains/loses focus   |
+|<Enter> / <Leave>	         | Mouse enters/leaves widget |
