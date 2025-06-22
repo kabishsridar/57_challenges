@@ -39,6 +39,6 @@ tk.Button(root, text="Open Image", command=open_image).pack(pady=10) # button to
 tk.Button(root, text="Save Image", command=save_image).pack(pady=10) # button to save image
 
 image_label = tk.Label(root)
-image_label.pack(pady=10)
+image_label.pack(pady=30)
 
 root.mainloop()

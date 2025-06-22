@@ -59,9 +59,9 @@ def validate_python(): # validating password
     if input_name not in my_dict: # if the user name is not in the dictionary
         print("User not registered") # display user not registered
     else: # if already exists
-        for key, value in my_dict.items():
-            if key == input_name and value == input_passwd: # check whether the entered name and password matches
-                status = True # then true
+        original_password = my_dict[input_name]
+        if original_password == input_passwd: # 
+            status = True # then true
         if status == True:
             print("Correct Password")
         
@@ -69,15 +69,13 @@ def validate_python(): # validating password
             print("Wrong password")
     
 def validate_sql(): # validating through sql
-    cur.execute('SELECT * FROM PASSWORD;')
-    rows = cur.fetchall()
     input_name = name.get()
     input_passwd = passwd.get()
-    cur.execute(f"SELECT * FROM PASSWORD WHERE USERNAME = '{input_name}' AND PASSWORD = '{input_passwd}';") # displays the output if name and password matches
+    cur.execute(f"SELECT * FROM PASSWORD WHERE USERNAME = '{input_name}' AND PASSWORD = '{input_passwd}';") 
+    # displays the output if name and password matches
     output = cur.fetchall()
     if output: # if the output is not empty
         print("CORRECT PASSWORD")
-        print(f'{output} is available In MYSQL')
     else: # if the output is emty set, then there are no matches in the dictionary
         print("Wrong password")
     # if user in db
@@ -85,11 +83,18 @@ def validate_sql(): # validating through sql
     # if password matches, print correct password
     # else, print wrong password
 
+def display():
+    cur.execute("SELECT * FROM PASSWORD;")
+    rows = cur.fetchall()
+    print(rows)
+
 button = tk.Button(root, text="validate python", command=validate_python) # button to validate through python
 button.grid(row=3, column=0)
 button = tk.Button(root, text="validate", command=validate_sql) # button to validate through sql
 button.grid(row=2, column=3)
 button = ttk.Button(root, text="Submit", command=submit) # button to save the data to sql
 button.grid(row=2, column=0)
+button = ttk.Button(root, text="display", command=display) # button to display
+button.grid(row=4, column=0)
 
 root.mainloop()
