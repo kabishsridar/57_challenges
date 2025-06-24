@@ -1,6 +1,7 @@
 import numpy as np
 import cv2 as cv
- 
+
+print("testing")
 # cap = cv.VideoCapture(-1) # Use 0 for the default camera, or -1 for the first available camera
 cap = cv.VideoCapture(0) # Use 0 for the default camera, or -1 for the first available camera
 if not cap.isOpened():
@@ -8,6 +9,7 @@ if not cap.isOpened():
     # and if it is not opened, we will exit the program
     print("Cannot open camera")
     exit()
+print("testing")
 while True:
     # Capture frame-by-frame
     ret, frame = cap.read() # returns a bool (True/False). If the frame is read correctly, it will be True.
@@ -20,6 +22,7 @@ while True:
     # gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
     # rgb_image = cv.cvtColor(frame, cv.COLOR_GRAY2RGB)
     # rgb_frame = cv.cvtColor(frame, cv.COLOR_RGB2BGR)
+    print("testing")
     cv.imshow('Webcam - Original Color', frame)
 
     # Display the resulting frame
