@@ -5,7 +5,6 @@
 import cv2
 from picamera2 import Picamera2
 import time
-
 def main():
     """
     Initializes the camera, creates a preview window, and displays the live feed.
