@@ -1,5 +1,4 @@
 import tkinter as tk # importing the modules
-from tkinter import ttk
 import matplotlib.pyplot as plt
 from PIL import Image, ImageTk
 
@@ -24,7 +23,7 @@ if __name__ == "__main__": # block to start first
 
     root = tk.Tk() # using Tk class and storing it
     root.title('WPM Progress') # window title
-    root.geometry("300x200") # size of the window
+    root.geometry("700x600") # size of the window
 
     button = tk.Button(root, text="display graph", command=lambda: graph(categories_lst, values_lst)).pack(pady=0) # button to display the graph
     root.mainloop()
