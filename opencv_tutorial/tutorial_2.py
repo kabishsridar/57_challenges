@@ -23,7 +23,8 @@ while True:
     # rgb_image = cv.cvtColor(frame, cv.COLOR_GRAY2RGB)
     # rgb_frame = cv.cvtColor(frame, cv.COLOR_RGB2BGR)
     print("testing")
-    cv.imshow('Webcam - Original Color', frame)
+    pic = cv.flip(frame, 1)
+    cv.imshow('Webcam - Original Color', pic)
 
     # Display the resulting frame
     # cv.imshow('frame', gray)
