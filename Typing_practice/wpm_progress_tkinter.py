@@ -10,7 +10,7 @@ def graph(categories, values): # function to display graph, it takes categories 
     plt.show() # displays the graph
 
 if __name__ == "__main__": # block to start first
-    fin = open('Typing_practice//progress.txt', 'r') # opening the file in read mode
+    fin = open('progress.txt', 'r') # opening the file in read mode
     data = fin.read() # reads all the lines in the string format
     lst = data.split() # splitting them and converting to list
     categories_lst = [] # initiating two empty lists
