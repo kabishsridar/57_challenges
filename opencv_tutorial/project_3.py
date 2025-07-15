@@ -10,7 +10,7 @@ edges = cv2.Canny(gray, 100, 800)
 cv2.imshow("Edges", edges)
 print(f"{edges.ndim}")
 print(type(edges))
-""" while True:
+while True:
     ret, frame = cap.read()
     if not ret:
         break
@@ -20,11 +20,11 @@ print(type(edges))
     print(edges)
     print(type(edges))
     if cv2.waitKey(1) & 0xFF == ord('q'):
-        break """
-lines = cv2.HoughLinesP(edges, 1, np.pi / 180, threshold=100, minLineLength=50, maxLineGap=10)
+        break
+lines = cv2.HoughLinesP(edges, 1, np.pi / 180, threshold=100, maxLineGap=10)
 """ # Show edges
 cv2.imshow("Edges", edges)
-cv2.waitKey(0)
+cv2.waitKey(0)-
 cv2.destroyAllWindows() """
 line_img = frame.copy()
 
