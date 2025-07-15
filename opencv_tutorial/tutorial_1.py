@@ -3,9 +3,11 @@ import sys
 # if it is in the same directory, we can use the below line
 # img = cv.imread(cv.samples.findFile("rolls.jpg"))
 # if it is not in the same directory, we can use the below line
-# img = cv.IMREAD_COLOR(("C:\\Users\\OMAC\\Pictures\\New folder\\rolls.jpg"))
+img = cv.IMREAD_COLOR(("opencv_tutorial\\rolls.jpg"))
 # this will work if the image is in the same directory as this script
-img = cv.imread("rolls.jpg")
+# img = cv.imread("opencv_tutorial\\rolls.jpg") # reading the image
+print(img[0]) # it returns the matrix of the numbers in which the image is stored
+print(type(img))
 if img is None:
     sys.exit("Could not read the image.")
 

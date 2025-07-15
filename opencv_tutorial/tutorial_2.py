@@ -9,10 +9,13 @@ if not cap.isOpened():
     # and if it is not opened, we will exit the program
     print("Cannot open camera")
     exit()
+if cap.isOpened():
+    print("camera is opened")
 print("testing")
 while True:
     # Capture frame-by-frame
     ret, frame = cap.read() # returns a bool (True/False). If the frame is read correctly, it will be True.
+    print(frame)
  
     # if frame is read correctly ret is True
     if not ret:
@@ -22,6 +25,7 @@ while True:
     # gray = cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
     # rgb_image = cv.cvtColor(frame, cv.COLOR_GRAY2RGB)
     # rgb_frame = cv.cvtColor(frame, cv.COLOR_RGB2BGR)
+    
     print("testing")
     pic = cv.flip(frame, 1)
     cv.imshow('Webcam - Original Color', pic)

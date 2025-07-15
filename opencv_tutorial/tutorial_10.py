@@ -1,8 +1,8 @@
 import cv2 as cv
 import numpy as np
 # Load two images
-img1 = cv.imread('messi.jpg')
-img2 = cv.imread('rolls_royce.png')
+img1 = cv.imread('opencv_tutorial\\messi.jpg')
+img2 = cv.imread('opencv_tutorial\\rolls_royce.png')
 assert img1 is not None, "file could not be read, check with os.path.exists()"
 assert img2 is not None, "file could not be read, check with os.path.exists()"
 
