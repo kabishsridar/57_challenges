@@ -1,4 +1,4 @@
-fin = open('typing_25.txt', 'r')
+fin = open('typing_26.txt', 'r')
 data = fin.read()
 words = data.split()
 count = len(words)
